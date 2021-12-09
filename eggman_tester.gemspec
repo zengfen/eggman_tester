@@ -18,11 +18,11 @@ Gem::Specification.new do |spec|
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   # 可以设置自己的git server，但是我们一般放在rubygems上，下面的if else 可以注释
   # if spec.respond_to?(:metadata)
-  #   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  #   spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
   #
   #   spec.metadata["homepage_uri"] = spec.homepage
-  #   spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  #   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  #   spec.metadata["source_code_uri"] = "Put your gem's public repo URL here."
+  #   spec.metadata["changelog_uri"] = "Put your gem's CHANGELOG.md URL here."
   # else
   #   raise "RubyGems 2.0 or newer is required to protect against " \
   #     "public gem pushes."
