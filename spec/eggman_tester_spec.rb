@@ -1,0 +1,9 @@
+RSpec.describe EggmanTester do
+  it "has a version number" do
+    expect(EggmanTester::VERSION).not_to be nil
+  end
+
+  it "does something useful" do
+    expect(false).to eq(true)
+  end
+end
